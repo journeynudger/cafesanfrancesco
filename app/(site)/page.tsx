@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { home, site, focaccia } from "@/lib/content";
+import { home, site, focaccia, getMenuPrice } from "@/lib/content";
 
 export default function HomePage() {
   const { hero, story, favorites, catering, reviews } = home;
@@ -101,7 +101,7 @@ export default function HomePage() {
                 <p className="mt-1 flex items-baseline gap-3 font-serif text-2xl">
                   <span>{item.name}</span>
                   <span aria-hidden="true" className="leader border-paper/40!" />
-                  <span className="tabular-nums">{item.price}</span>
+                  <span className="tabular-nums">{getMenuPrice(item.section, item.name)}</span>
                 </p>
               </li>
             ))}

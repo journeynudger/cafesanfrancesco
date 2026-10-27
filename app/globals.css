@@ -62,3 +62,195 @@ body {
   border-bottom: 1px dotted var(--rule);
   transform: translateY(-0.35em);
 }
+
+/* ── Menu boards: the printed menu, rebuilt as live text ─────────────────── */
+.board {
+  --green: #2d3800;
+  --red-board: #740005;
+  --peach: #ffe6d3;
+  --bar: #133e17;
+  --board-cream: #f7ead6;
+  font-family: var(--font-playfair), Georgia, serif;
+  min-width: 0;
+  overflow: clip;
+  border-radius: 1rem;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 0.06), 0 12px 32px -12px rgb(0 0 0 / 0.25);
+  background: var(--green);
+}
+
+.board__bar {
+  background: var(--bar);
+  color: var(--board-cream);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  font-size: 0.66rem;
+  padding: 0.7rem 0.75rem;
+}
+@media (min-width: 640px) {
+  .board__bar {
+    letter-spacing: 0.32em;
+    font-size: 0.72rem;
+  }
+}
+
+.board__hero {
+  position: relative;
+  display: flex;
+  height: clamp(11rem, 32vw, 19rem);
+  background: #000;
+}
+.board__photo {
+  position: relative;
+  flex: 1 1 0;
+}
+.board__hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgb(0 0 0 / 0.42), rgb(0 0 0 / 0.5));
+}
+.board__mast {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.15em;
+  color: var(--board-cream);
+  font-family: var(--font-cormorant), Georgia, serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+.board__mast-sm {
+  font-size: clamp(0.95rem, 2.4vw, 1.5rem);
+  letter-spacing: 0.5em;
+  padding-left: 0.5em;
+}
+.board__mast-lg {
+  font-size: clamp(1.3rem, 6.6vw, 3.6rem);
+  font-weight: 500;
+  letter-spacing: 0.24em;
+  padding-left: 0.24em;
+  line-height: 1.1;
+}
+
+.board__panels {
+  display: grid;
+}
+@media (min-width: 768px) {
+  .board__panels--split {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.panel {
+  padding: 2.5rem 1.5rem 2.25rem;
+}
+@media (min-width: 768px) {
+  .panel {
+    padding: 3rem 2.75rem 2.75rem;
+  }
+}
+.panel--green { background: var(--green); color: var(--board-cream); }
+.panel--red { background: var(--red-board); color: var(--board-cream); }
+.panel--peach { background: var(--peach); color: #1e1915; }
+
+.panel__title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.7rem;
+  letter-spacing: 0.28em;
+  padding-left: 0.28em;
+  line-height: 1.2;
+}
+.panel__note {
+  margin: 0.6rem auto 0;
+  max-width: 34rem;
+  text-align: center;
+  font-family: var(--font-opensans), system-ui, sans-serif;
+  font-weight: 300;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  opacity: 0.92;
+}
+.panel__items {
+  display: grid;
+  gap: 1.35rem 3rem;
+  margin-top: 2rem;
+}
+@media (min-width: 768px) {
+  .panel__items--two {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.item__head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  font-size: 1.3rem;
+  line-height: 1.25;
+}
+.item__price {
+  white-space: nowrap;
+  font-variant-numeric: lining-nums tabular-nums;
+}
+.item__desc {
+  margin-top: 0.3rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  opacity: 0.86;
+}
+.panel--peach .item__desc { opacity: 0.8; }
+
+.board__foot {
+  padding: 0 1.5rem 2.25rem;
+  text-align: center;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  opacity: 0.95;
+}
+.board__foot p {
+  max-width: 36rem;
+  margin: 0 auto;
+}
+.board__foot p + p { margin-top: 0.5rem; }
+
+/* Letter-size sheet for the PDF (/print/menu) */
+.board--print {
+  width: 8.5in;
+  height: 11in;
+  border-radius: 0;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  break-after: page;
+}
+.board--print:last-child { break-after: auto; }
+.board--print .board__bar { font-size: 9.5pt; padding: 8pt; }
+.board--print .board__hero { height: 2.8in; flex: none; }
+.board--print .board__mast-sm { font-size: 16pt; }
+.board--print .board__mast-lg { font-size: 40pt; }
+.board--print .board__panels { flex: 1; }
+.board--print .board__panels--split { grid-template-columns: 1fr 1fr; }
+.board--print .panel { padding: 0.45in 0.5in 0.3in; }
+.board--print .panel__title { font-size: 25pt; }
+.board--print .panel__note { font-size: 11.5pt; }
+.board--print .panel__items { margin-top: 0.32in; gap: 14pt 0.5in; }
+.board--print .panel__items--two { grid-template-columns: 1fr 1fr; }
+.board--print .item__head { font-size: 15pt; }
+.board--print .item__desc { font-size: 10.5pt; margin-top: 2pt; }
+/* Half-width panels carry more text per line: a touch smaller so they fit one sheet. */
+.board--print .board__panels--split .panel { padding-left: 0.38in; padding-right: 0.38in; }
+.board--print .board__panels--split .item__head { font-size: 14pt; }
+.board--print .board__panels--split .item__desc { font-size: 10pt; }
+.board--print .board__foot { font-size: 9pt; padding: 0 0.7in 0.4in; flex: none; }
+
+@page {
+  size: letter;
+  margin: 0;
+}

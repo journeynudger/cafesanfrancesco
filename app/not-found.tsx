@@ -1,7 +1,9 @@
 import Link from "next/link";
+import SiteChrome from "@/components/SiteChrome";
 
 export default function NotFound() {
   return (
+    <SiteChrome>
     <section className="mx-auto max-w-2xl px-4 py-28 text-center sm:px-6">
       <h1 className="font-serif text-5xl tracking-tight">This page isn&rsquo;t on the menu</h1>
       <p className="mt-5 text-lg text-ink-soft">The page you were looking for has moved or no longer exists.</p>
@@ -14,5 +16,6 @@ export default function NotFound() {
         </Link>
       </div>
     </section>
+    </SiteChrome>
   );
 }

@@ -28,33 +28,27 @@
     "items": [
       {
         "section": "La Pasta",
-        "name": "Orechiette alla ricotta",
-        "price": "$18.99"
+        "name": "Orechiette alla ricotta"
       },
       {
         "section": "Entrees",
-        "name": "Chicken Vesuvio",
-        "price": "$19.95"
+        "name": "Chicken Vesuvio"
       },
       {
         "section": "Sandwiches",
-        "name": "Italian Beef",
-        "price": "$12.99"
+        "name": "Italian Beef"
       },
       {
         "section": "La Pizza",
-        "name": "Capricciosa",
-        "price": "$18.99"
+        "name": "Capricciosa"
       },
       {
         "section": "Dessert",
-        "name": "Tiramisu",
-        "price": "$7.99+"
+        "name": "Tiramisu"
       },
       {
         "section": "Cafe",
-        "name": "Affogato al caffe",
-        "price": "$8.99+"
+        "name": "Affogato al caffe"
       }
     ]
   },

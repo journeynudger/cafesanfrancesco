@@ -52,10 +52,10 @@ export default function FocacciaPage() {
         <div className="mt-12 text-center">
           <p className="text-lg text-ink-soft">Rather call? We&rsquo;ll have it ready.</p>
           <a
-            href={`tel:${site.focacciaPhone.tel}`}
+            href={`tel:${site.phone.tel}`}
             className="mt-4 inline-block font-serif text-3xl underline decoration-rule underline-offset-8 hover:decoration-red sm:text-4xl"
           >
-            {site.focacciaPhone.display}
+            {site.phone.display}
           </a>
         </div>
       </section>
