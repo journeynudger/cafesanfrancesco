@@ -1,0 +1,48 @@
+{
+  "title": "Nonna’s focaccia",
+  "lede": "Homemade Focaccia Barese, fresh from Nonna’s garden. Baked to order.",
+  "image": {
+    "src": "/images/focaccia-round.jpg",
+    "width": 680,
+    "height": 497,
+    "alt": "A round Focaccia Barese topped with tomatoes and black olives"
+  },
+  "items": [
+    {
+      "name": "Focaccia Barese",
+      "price": "$12",
+      "orderUrl": "https://square.link/u/ih2jlGkp",
+      "image": {
+        "src": "/images/focaccia-barese.jpg",
+        "width": 1600,
+        "height": 900,
+        "alt": "Close-up of Focaccia Barese with cherry tomatoes and oregano"
+      }
+    },
+    {
+      "name": "Focaccia, everything on it",
+      "price": "$15",
+      "orderUrl": "https://square.link/u/4cxy7W6c",
+      "image": {
+        "src": "/images/focaccia-everything.jpg",
+        "width": 1800,
+        "height": 1012,
+        "alt": "Focaccia with cherry tomatoes, green olives and oregano"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "title": "Baked to order",
+      "text": "Every focaccia comes out of the oven for you."
+    },
+    {
+      "title": "$3 delivery",
+      "text": "Or pick it up on Harlem Avenue."
+    },
+    {
+      "title": "Buy 3, get 1 free",
+      "text": "This week’s special when you call."
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "_source": "Transcribed from the five menu boards on cafesanfrancesco.com/menu (wp-content/uploads 2024/09/1-1.jpg, 2-1.jpg, 2024/04/3.jpg, 4.jpg, 2024/09/5.jpg) on 2026-10-27. Prices exactly as printed.",
+  "advisory": "*Consumer advisory: public health advises that consuming raw or undercooked foods of animal origin, such as beef, eggs, fish, lamb, pork, poultry or shellfish, may increase your risk of foodborne illness.",
+  "plusNote": "A + means the price may vary with larger sizes, added flavoring or special requests.",
+  "sections": [
+    {
+      "id": "appetizers",
+      "title": "Appetizers",
+      "note": "Half sizes. For an additional charge, any appetizer can be made in a full entrée size.",
+      "items": [
+        {
+          "name": "French Fries",
+          "description": "Fresh-cut fries",
+          "price": "$6.99"
+        },
+        {
+          "name": "Bruschetta",
+          "description": "4 slices of bread, fresh tomatoes, basil, garlic",
+          "price": "$8.99"
+        },
+        {
+          "name": "Mozzarella Sticks",
+          "description": "4 mozzarella sticks",
+          "price": "$9.99"
+        },
+        {
+          "name": "Chicken Tenders",
+          "advisory": true,
+          "description": "6 fried chicken tenderloins",
+          "price": "$14.99"
+        },
+        {
+          "name": "Mixed Vegetables",
+          "description": "Pan-fried broccoli, cauliflower, and zucchini flower when in season",
+          "price": "$10.99",
+          "_note": "One word after ’cauliflower,’ is cut off on the printed board. Ask the client."
+        },
+        {
+          "name": "Fried Calamari",
+          "advisory": true,
+          "description": "Tender pieces of squid and octopus, coated in seasoned flour and fried golden brown",
+          "price": "$16.00+"
+        },
+        {
+          "name": "Arancini",
+          "description": "2 arancini with spinach, cheese, mozzarella",
+          "price": "$4.00"
+        }
+      ]
+    },
+    {
+      "id": "pasta",
+      "title": "La Pasta",
+      "note": "Add meatballs +$3.50 · add sausage +$3.00 · add white, red, clam or meat sauce +$3",
+      "items": [
+        {
+          "name": "Spaghetti al pomodoro",
+          "description": "Spaghetti topped with red sauce and fresh basil",
+          "price": "$15.96"
+        },
+        {
+          "name": "Cheese Ravioli",
+          "description": "Ravioli stuffed with ricotta, topped with meat red sauce and parmigiana. Half pan $49.99, full pan $90",
+          "price": "$16.99"
+        },
+        {
+          "name": "Meat Ravioli",
+          "description": "Ravioli stuffed with meat, topped with meat red sauce and parmigiana. Half pan $49.99, full pan $90",
+          "price": "$17.99"
+        },
+        {
+          "name": "Penne Rigate",
+          "description": "Penne rigate with red sauce and fresh basil",
+          "price": "$15.99"
+        },
+        {
+          "name": "Orechiette alla ricotta",
+          "description": "Handmade pasta stuffed with a blend of fresh beef and veal, prepared in our meat sauce",
+          "price": "$18.99"
+        }
+      ]
+    },
+    {
+      "id": "pizza",
+      "title": "La Pizza",
+      "note": "10\" $12.95 · 16\" $14.95 · add toppings +$1.50 · add meat +$3.00 · add ricotta +$4.50",
+      "items": [
+        {
+          "name": "Margherita",
+          "description": "San Marzano tomato sauce, basil, mozzarella, fresh garlic, sea salt, oregano, extra virgin olive oil",
+          "price": "$17.99"
+        },
+        {
+          "name": "Sausage Pizza",
+          "description": "San Marzano tomato sauce, sausage, pecorino romano, mushrooms, basil",
+          "price": "$16.99"
+        },
+        {
+          "name": "Capricciosa",
+          "description": "San Marzano tomatoes, artichokes, kalamata olives, mushrooms, prosciutto cotto, pecorino romano, mozzarella, basil",
+          "price": "$18.99"
+        },
+        {
+          "name": "Prosciutto e Arugula",
+          "description": "Mozzarella, prosciutto, arugula, parmigiano reggiano",
+          "price": "$18.99"
+        },
+        {
+          "name": "Barese",
+          "description": "Rapini, sausage, mozzarella, basil",
+          "price": "$15.99"
+        },
+        {
+          "name": "Customize Your Own",
+          "description": "Mozzarella and red sauce as the base. Choose from sausage, mushrooms, peppers, pepperoni, ricotta, onion, olives, pineapple, bacon, meatball, spinach, ham, ricotta, anchovies, fresh garlic, sun-dried tomato",
+          "price": "$19.99"
+        }
+      ]
+    },
+    {
+      "id": "entrees",
+      "title": "Entrees",
+      "note": "All entrees include salad, potatoes or pasta.",
+      "items": [
+        {
+          "name": "Chicken Parmigiana",
+          "advisory": true,
+          "description": "Chicken, Italian, mozzarella cheese, parmesan",
+          "price": "$19.95"
+        },
+        {
+          "name": "Shrimp Scampi",
+          "advisory": true,
+          "description": "Shrimp, white wine, red pepper, cream",
+          "price": "$19.95"
+        },
+        {
+          "name": "Ribeye Steak",
+          "advisory": true,
+          "description": "Ribeye steak, garlic, fresh rosemary, black pepper, canola",
+          "price": "$19.95"
+        },
+        {
+          "name": "Chicken Vesuvio",
+          "advisory": true,
+          "description": "Chicken, white wine, frozen green peas, lemon, olive",
+          "price": "$19.95"
+        },
+        {
+          "name": "Chicken Cacciatore",
+          "advisory": true,
+          "description": "Chicken, red wine, mushrooms, tomato sauce",
+          "price": "$19.95"
+        },
+        {
+          "name": "Roasted Half Chicken",
+          "advisory": true,
+          "description": "Half chicken, rosemary, whole lemon, herb seasoning",
+          "price": "$16.95"
+        },
+        {
+          "name": "Chicken Marsala",
+          "advisory": true,
+          "description": "Dry marsala wine, chicken tenderloins, chicken broth",
+          "price": "$18.95"
+        },
+        {
+          "name": "Salmon",
+          "advisory": true,
+          "description": "Olive oil, garlic, fresh herbs, wild caught",
+          "price": "$19.95"
+        }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "title": "Sandwiches",
+      "note": "Served on toasted French bread.",
+      "items": [
+        {
+          "name": "Italian Beef",
+          "advisory": true,
+          "description": "Italian beef, peppers, topped with hot or mild giardiniera. Add sausage +$4.00",
+          "price": "$12.99"
+        },
+        {
+          "name": "Ribeye Steak",
+          "advisory": true,
+          "description": "6 oz ribeye steak, lettuce, tomatoes, onions, peppers, mayo, topped with steak juice",
+          "price": "$18.99"
+        },
+        {
+          "name": "Italian Sub",
+          "advisory": true,
+          "description": "Provolone, salami, mortadella, prosciutto, capicola, pepperoncini, lettuce, tomato, onion, topped with our house dressing",
+          "price": "$14.99"
+        },
+        {
+          "name": "Meatball",
+          "advisory": true,
+          "description": "Penne rigate with red sauce and fresh basil",
+          "price": "$11.99",
+          "_note": "The board prints the Penne Rigate description under Meatball. Carried as printed; ask the client."
+        },
+        {
+          "name": "Pizza Burger",
+          "advisory": true,
+          "description": "Ground beef, mozzarella, red sauce, onion, lettuce, mayo and tomato on a hamburger bun",
+          "price": "$12.99"
+        },
+        {
+          "name": "Chicken Parmigiana",
+          "advisory": true,
+          "description": "Breaded chicken cooked in our homemade sauce, drenched in mozzarella",
+          "price": "$14.99"
+        },
+        {
+          "name": "Tonno Tuna Melt",
+          "advisory": true,
+          "description": "Grilled tuna, melted mozzarella, lettuce, tomatoes, onions, mayo",
+          "price": "$18.99"
+        },
+        {
+          "name": "Eggplant Parmigiana",
+          "description": "Eggplant parmigiana, mozzarella, topped with our red homemade sauce",
+          "price": "$14.99"
+        },
+        {
+          "name": "Pepper & Egg",
+          "advisory": true,
+          "description": "Egg, peppers, onions, giardiniera, cooked in olive oil",
+          "price": "$12.99"
+        },
+        {
+          "name": "Grilled Chicken",
+          "advisory": true,
+          "description": "Grilled chicken, lettuce, tomatoes, onions, mayo",
+          "price": "$13.99"
+        },
+        {
+          "name": "Salmon",
+          "advisory": true,
+          "description": "Grilled or fried salmon, lettuce, tomatoes, onions, mayo",
+          "price": "$15.99"
+        }
+      ]
+    },
+    {
+      "id": "dessert",
+      "title": "Dessert",
+      "items": [
+        {
+          "name": "Tiramisu",
+          "description": "Ladyfingers dipped in coffee, layered with whipped eggs, sugar and mascarpone, dusted with cocoa",
+          "price": "$7.99+"
+        },
+        {
+          "name": "Cannoli",
+          "description": "Fried pastry shells with a sweet, creamy ricotta filling",
+          "price": "$5.99+"
+        },
+        {
+          "name": "Gelato",
+          "description": "One scoop of Italian ice cream made with 3.25% milk and sugar",
+          "price": "$4.99+"
+        },
+        {
+          "name": "Granita",
+          "description": "Semi-frozen dessert of coffee, sugar and water",
+          "price": "$5.99+"
+        },
+        {
+          "name": "Spumoni",
+          "description": "Sliced gelato in layers of colors and flavors, with candied fruit and nuts",
+          "price": "$7.99+"
+        }
+      ]
+    },
+    {
+      "id": "cafe",
+      "title": "Cafe",
+      "note": "Add a flavor +$.35: whipped cream, caramel, hazelnut, vanilla.",
+      "items": [
+        {
+          "name": "Cappuccino",
+          "description": "Espresso, cream and flavoring with cinnamon and chocolate powder",
+          "price": "$4.00+"
+        },
+        {
+          "name": "Latte Macchiato",
+          "description": "Espresso below the foam, milk at the bottom",
+          "price": "$4.00+"
+        },
+        {
+          "name": "Espresso",
+          "description": "Long, short or regular",
+          "price": "$3.50+"
+        },
+        {
+          "name": "Americano",
+          "description": "Espresso with steamed water added for less concentration",
+          "price": "$4.00+"
+        },
+        {
+          "name": "Affogato al caffe",
+          "description": "Vanilla gelato “drowned” in a shot of hot espresso",
+          "price": "$8.99+"
+        }
+      ]
+    }
+  ]
+}

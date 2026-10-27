@@ -1,0 +1,39 @@
+{
+  "name": "Café San Francesco",
+  "tagline": "Nonna Nina’s kitchen on Harlem Avenue. Italian tradition and authenticity, since 1994.",
+  "since": "1994",
+  "address": {
+    "street": "3815 N. Harlem Ave.",
+    "city": "Chicago, IL",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=3815+N+Harlem+Ave+Chicago+IL"
+  },
+  "phone": {
+    "display": "(773) 283-1117",
+    "tel": "+17732831117"
+  },
+  "focacciaPhone": {
+    "display": "(773) 988-1399",
+    "tel": "+17739881399"
+  },
+  "email": "scardi123@yahoo.com",
+  "hours": [
+    {
+      "days": "Monday – Sunday",
+      "time": "8:00am – 10:00pm"
+    }
+  ],
+  "orderOnline": {
+    "label": "Order on Grubhub",
+    "url": "https://www.grubhub.com/restaurant/cafe-san-francesco-italian-cuisine-3815-n-harlem-ave-chicago/360928"
+  },
+  "nav": [
+    {
+      "label": "Menu",
+      "href": "/menu"
+    },
+    {
+      "label": "Focaccia",
+      "href": "/focaccia"
+    }
+  ]
+}

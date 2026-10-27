@@ -1,0 +1,87 @@
+{
+  "hero": {
+    "eyebrow": "Harlem Ave · Chicago · Since 1994",
+    "title": "Nonna Nina’s kitchen",
+    "lede": "Where Italian tradition and authenticity come standard.",
+    "image": {
+      "src": "/images/focaccia-everything.jpg",
+      "width": 1800,
+      "height": 1012,
+      "alt": "Focaccia baked with cherry tomatoes, green olives and oregano"
+    }
+  },
+  "story": {
+    "title": "Three generations, one kitchen",
+    "paragraphs": [
+      "Nonna Nina has been running Café San Francesco for three whole generations. With her daughter Maria, her granddaughter Vittoria and her grandson Lorenzo as handy helpers, she is still cooking up the best pasta in Chicago “in the back.”",
+      "We use fresh ingredients in our homemade recipes, welcoming your family to our family. On Harlem Avenue, we are one of the last authentic Italian restaurants standing, and we carry our heritage into every meal we serve."
+    ],
+    "image": {
+      "src": "/images/pasta.jpg",
+      "width": 1280,
+      "height": 853,
+      "alt": "Penne in red sauce with fresh basil"
+    }
+  },
+  "favorites": {
+    "title": "From the menu",
+    "items": [
+      {
+        "section": "La Pasta",
+        "name": "Orechiette alla ricotta",
+        "price": "$18.99"
+      },
+      {
+        "section": "Entrees",
+        "name": "Chicken Vesuvio",
+        "price": "$19.95"
+      },
+      {
+        "section": "Sandwiches",
+        "name": "Italian Beef",
+        "price": "$12.99"
+      },
+      {
+        "section": "La Pizza",
+        "name": "Capricciosa",
+        "price": "$18.99"
+      },
+      {
+        "section": "Dessert",
+        "name": "Tiramisu",
+        "price": "$7.99+"
+      },
+      {
+        "section": "Cafe",
+        "name": "Affogato al caffe",
+        "price": "$8.99+"
+      }
+    ]
+  },
+  "catering": {
+    "title": "Dinner in a pinch, or a party for a thousand",
+    "paragraphs": [
+      "Give us 30 minutes and we can have food ready for 4 to 6 people.",
+      "We cover events of every size, from an intimate dinner to a big party. Our catering menu serves groups of 8 to 1,000 guests, and we deliver with advance notice."
+    ],
+    "note": "Don’t miss our Saint’s Day celebrations and blessings."
+  },
+  "reviews": [
+    {
+      "quote": "Bar San Francesco has a magical atmosphere that brings me back to when I was a kid living in Italy.",
+      "name": "Franco"
+    },
+    {
+      "quote": "The food is so fresh and delicious. Nonna Nina is the best cook there is! Ingredients are fresh from the garden.",
+      "name": "Angelo"
+    },
+    {
+      "quote": "The last of its kind. Bar San Francesco is an authentic Italian bar with excellent Italian food made by authentic Italians, great espressos and pizza.",
+      "name": "Giuseppe"
+    },
+    {
+      "quote": "3 generations working there, from grandmother to daughter to granddaughter. It has a relaxed atmosphere that you just won’t find in modern-day neighborhoods.",
+      "name": "Pasquale"
+    }
+  ]
+}
